@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+table {
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+</style>
+</head>
+
+<body>
+
+<table>
+    <caption>Salary List</caption>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Salary</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<br>
+<form>
+    Name:
+    <input id="name_add" type="text">
+    Salary:
+    <input type="number" id="salary_add">
+    <input type="button" id="add" value="Add">
+</form>
+<br>
+<br>
+<br>
+<br>
+<form>
+    Id
+    <input type="number" id="id_update" value="">
+    Name:
+    <input type="text" id="name_update">
+    Salary:
+    <input type="number" id="salary_update">
+    <input type="button" id="update" value="Update">
+</form>
+<br>
+<form>
+    Id
+    <input type="number" id="id_get">
+    <input type="button" id="get" value="Get">
+    <input type="button" id="get_all" value="GetAll">
+</form>
+<br>
+<form>
+    Id
+    <input type="numbler" id="id_del">
+    <input type="button" id="delete" value="Delete">
+</form>
+
+
+</body>
+<script src="jquery-3.2.1.js"></script>
+<script src="demo.js"></script>
+</html>
